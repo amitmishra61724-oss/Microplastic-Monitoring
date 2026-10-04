@@ -1,0 +1,92 @@
+{
+  "image_file": "microscope_train_001.png",
+  "width": 1024,
+  "height": 1024,
+  "particle_count": 6,
+  "particles": [
+    {
+      "class_id": 1,
+      "class_name": "fragment",
+      "x_center": 0.21630859375,
+      "y_center": 0.359375,
+      "width": 0.0498046875,
+      "height": 0.056640625,
+      "x_min": 196,
+      "y_min": 339,
+      "x_max": 247,
+      "y_max": 397,
+      "size_um": 75.0,
+      "confidence": 0.917
+    },
+    {
+      "class_id": 2,
+      "class_name": "pellet",
+      "x_center": 0.599609375,
+      "y_center": 0.716796875,
+      "width": 0.099609375,
+      "height": 0.099609375,
+      "x_min": 563,
+      "y_min": 683,
+      "x_max": 665,
+      "y_max": 785,
+      "size_um": 115.0,
+      "confidence": 0.981
+    },
+    {
+      "class_id": 3,
+      "class_name": "film",
+      "x_center": 0.8271484375,
+      "y_center": 0.6943359375,
+      "width": 0.134765625,
+      "height": 0.125,
+      "x_min": 778,
+      "y_min": 647,
+      "x_max": 916,
+      "y_max": 775,
+      "size_um": 142.5,
+      "confidence": 0.925
+    },
+    {
+      "class_id": 1,
+      "class_name": "fragment",
+      "x_center": 0.79443359375,
+      "y_center": 0.88427734375,
+      "width": 0.0751953125,
+      "height": 0.0654296875,
+      "x_min": 775,
+      "y_min": 872,
+      "x_max": 852,
+      "y_max": 939,
+      "size_um": 95.0,
+      "confidence": 0.909
+    },
+    {
+      "class_id": 0,
+      "class_name": "fiber",
+      "x_center": 0.9365234375,
+      "y_center": 0.1474609375,
+      "width": 0.064453125,
+      "height": 0.025390625,
+      "x_min": 926,
+      "y_min": 138,
+      "x_max": 992,
+      "y_max": 164,
+      "size_um": 72.5,
+      "confidence": 0.868
+    },
+    {
+      "class_id": 0,
+      "class_name": "fiber",
+      "x_center": 0.2470703125,
+      "y_center": 0.47802734375,
+      "width": 0.05078125,
+      "height": 0.0654296875,
+      "x_min": 227,
+      "y_min": 456,
+      "x_max": 279,
+      "y_max": 523,
+      "size_um": 85.0,
+      "confidence": 0.932
+    }
+  ]
+}

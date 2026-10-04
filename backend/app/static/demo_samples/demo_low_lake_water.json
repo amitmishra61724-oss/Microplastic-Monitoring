@@ -1,0 +1,41 @@
+{
+  "name": "demo_low_lake_water",
+  "display_name": "Lake Water Sample (Low Contamination)",
+  "image_file": "demo_low_lake_water.png",
+  "width": 1024,
+  "height": 1024,
+  "recommended_volume_ml": 1000.0,
+  "ground_truth_particle_count": 2,
+  "ground_truth_concentration_particles_l": 2.0,
+  "ground_truth_level": "LOW",
+  "particles": [
+    {
+      "class_id": 0,
+      "class_name": "fiber",
+      "x_center": 0.55322265625,
+      "y_center": 0.43408203125,
+      "width": 0.0341796875,
+      "height": 0.0810546875,
+      "x_min": 549,
+      "y_min": 403,
+      "x_max": 584,
+      "y_max": 486,
+      "size_um": 88.75,
+      "confidence": 0.939
+    },
+    {
+      "class_id": 2,
+      "class_name": "pellet",
+      "x_center": 0.2734375,
+      "y_center": 0.2890625,
+      "width": 0.1015625,
+      "height": 0.1015625,
+      "x_min": 228,
+      "y_min": 244,
+      "x_max": 332,
+      "y_max": 348,
+      "size_um": 117.5,
+      "confidence": 0.886
+    }
+  ]
+}

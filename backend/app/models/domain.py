@@ -27,9 +27,10 @@ class AnalysisResult(Base):
     id = Column(Integer, primary_key=True, index=True)
     sample_id = Column(Integer, ForeignKey("samples.id", ondelete="CASCADE"), nullable=False, index=True)
     image_path = Column(String(500), nullable=False)
+    annotated_image_path = Column(String(500), nullable=True)
     total_particle_count = Column(Integer, nullable=False, default=0)
     concentration_particles_per_liter = Column(Float, nullable=False, default=0.0)
-    contamination_level = Column(String(50), nullable=True)  # Nullable provisional classification: LOW, MEDIUM, HIGH
+    contamination_level = Column(String(50), nullable=True)  # Nullable provisional classification: LOW, MEDIUM/MODERATE, HIGH
     status = Column(String(50), nullable=False, default="COMPLETED")
     created_at = Column(DateTime(timezone=True), default=utcnow, nullable=False)
 

@@ -1,13 +1,16 @@
 from app.schemas.domain import (
-    SampleCreate, SampleResponse,
-    DetectedParticleCreate, DetectedParticleResponse,
-    ImageMetadataCreate, ImageMetadataResponse,
-    AnalysisResultCreate, AnalysisResultResponse
+    SampleBase, SampleCreate, SampleResponse,
+    DetectedParticleBase, DetectedParticleCreate, DetectedParticleResponse,
+    ImageMetadataBase, ImageMetadataCreate, ImageMetadataResponse,
+    AnalysisResultBase, AnalysisResultCreate, AnalysisResultResponse,
+    AnalyticsSummaryResponse, DemoSampleResponse
 )
 
 __all__ = [
-    "SampleCreate", "SampleResponse",
-    "DetectedParticleCreate", "DetectedParticleResponse",
-    "ImageMetadataCreate", "ImageMetadataResponse",
-    "AnalysisResultCreate", "AnalysisResultResponse"
+    "SampleBase", "SampleCreate", "SampleResponse",
+    "DetectedParticleBase", "DetectedParticleCreate", "DetectedParticleResponse",
+    "ImageMetadataBase", "ImageMetadataCreate", "ImageMetadataResponse",
+    "AnalysisResultBase", "AnalysisResultCreate", "AnalysisResultResponse",
+    "AnalyticsSummaryResponse", "DemoSampleResponse"
 ]
+

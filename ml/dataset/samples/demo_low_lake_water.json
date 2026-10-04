@@ -1,0 +1,41 @@
+{
+  "name": "demo_low_lake_water",
+  "display_name": "Lake Water Sample (Low Contamination)",
+  "image_file": "demo_low_lake_water.png",
+  "width": 1024,
+  "height": 1024,
+  "recommended_volume_ml": 1000.0,
+  "ground_truth_particle_count": 2,
+  "ground_truth_concentration_particles_l": 2.0,
+  "ground_truth_level": "LOW",
+  "particles": [
+    {
+      "class_id": 0,
+      "class_name": "fiber",
+      "x_center": 0.44189453125,
+      "y_center": 0.61376953125,
+      "width": 0.0205078125,
+      "height": 0.0693359375,
+      "x_min": 442,
+      "y_min": 593,
+      "x_max": 463,
+      "y_max": 664,
+      "size_um": 72.5,
+      "confidence": 0.9
+    },
+    {
+      "class_id": 3,
+      "class_name": "film",
+      "x_center": 0.291015625,
+      "y_center": 0.38916015625,
+      "width": 0.068359375,
+      "height": 0.0576171875,
+      "x_min": 263,
+      "y_min": 369,
+      "x_max": 333,
+      "y_max": 428,
+      "size_um": 75.0,
+      "confidence": 0.897
+    }
+  ]
+}

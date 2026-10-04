@@ -72,6 +72,7 @@ class ImageMetadataResponse(ImageMetadataBase):
 # --- Analysis Result Schemas ---
 class AnalysisResultBase(BaseModel):
     image_path: str = Field(..., min_length=1, max_length=500)
+    annotated_image_path: Optional[str] = Field(None, max_length=500)
     total_particle_count: int = Field(..., ge=0, description="Total particle count cannot be negative")
     concentration_particles_per_liter: float = Field(..., ge=0.0, description="Concentration cannot be negative")
     contamination_level: Optional[str] = Field(None, max_length=50, description="Nullable provisional classification")
@@ -86,4 +87,27 @@ class AnalysisResultResponse(AnalysisResultBase):
     created_at: datetime
     image_metadata: Optional[ImageMetadataResponse] = None
     particles: List[DetectedParticleResponse] = []
+    sample: Optional[SampleResponse] = None
+    particle_type_summary: Optional[dict] = None
     model_config = ConfigDict(from_attributes=True)
+
+
+# --- Analytics & Demo Schemas ---
+class AnalyticsSummaryResponse(BaseModel):
+    total_samples: int
+    total_analyses: int
+    total_particles_detected: int
+    mean_concentration_particles_l: float
+    risk_distribution: dict
+    particle_type_distribution: dict
+    recent_analyses: List[AnalysisResultResponse] = []
+
+class DemoSampleResponse(BaseModel):
+    name: str
+    display_name: str
+    image_url: str
+    recommended_volume_ml: float
+    ground_truth_particle_count: int
+    ground_truth_concentration_particles_l: float
+    ground_truth_level: str
+

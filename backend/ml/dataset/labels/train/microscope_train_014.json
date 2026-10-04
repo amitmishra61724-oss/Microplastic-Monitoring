@@ -1,0 +1,78 @@
+{
+  "image_file": "microscope_train_014.png",
+  "width": 1024,
+  "height": 1024,
+  "particle_count": 5,
+  "particles": [
+    {
+      "class_id": 2,
+      "class_name": "pellet",
+      "x_center": 0.1220703125,
+      "y_center": 0.1025390625,
+      "width": 0.056640625,
+      "height": 0.056640625,
+      "x_min": 96,
+      "y_min": 76,
+      "x_max": 154,
+      "y_max": 134,
+      "size_um": 60.0,
+      "confidence": 0.989
+    },
+    {
+      "class_id": 2,
+      "class_name": "pellet",
+      "x_center": 0.345703125,
+      "y_center": 0.7431640625,
+      "width": 0.060546875,
+      "height": 0.060546875,
+      "x_min": 323,
+      "y_min": 730,
+      "x_max": 385,
+      "y_max": 792,
+      "size_um": 65.0,
+      "confidence": 0.932
+    },
+    {
+      "class_id": 2,
+      "class_name": "pellet",
+      "x_center": 0.4326171875,
+      "y_center": 0.115234375,
+      "width": 0.080078125,
+      "height": 0.080078125,
+      "x_min": 402,
+      "y_min": 77,
+      "x_max": 484,
+      "y_max": 159,
+      "size_um": 90.0,
+      "confidence": 0.986
+    },
+    {
+      "class_id": 2,
+      "class_name": "pellet",
+      "x_center": 0.1953125,
+      "y_center": 0.3603515625,
+      "width": 0.072265625,
+      "height": 0.072265625,
+      "x_min": 163,
+      "y_min": 332,
+      "x_max": 237,
+      "y_max": 406,
+      "size_um": 80.0,
+      "confidence": 0.854
+    },
+    {
+      "class_id": 3,
+      "class_name": "film",
+      "x_center": 0.4482421875,
+      "y_center": 0.6103515625,
+      "width": 0.060546875,
+      "height": 0.0625,
+      "x_min": 428,
+      "y_min": 593,
+      "x_max": 490,
+      "y_max": 657,
+      "size_um": 60.0,
+      "confidence": 0.972
+    }
+  ]
+}

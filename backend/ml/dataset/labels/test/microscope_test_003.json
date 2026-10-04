@@ -1,0 +1,78 @@
+{
+  "image_file": "microscope_test_003.png",
+  "width": 1024,
+  "height": 1024,
+  "particle_count": 5,
+  "particles": [
+    {
+      "class_id": 0,
+      "class_name": "fiber",
+      "x_center": 0.58740234375,
+      "y_center": 0.12451171875,
+      "width": 0.0556640625,
+      "height": 0.0458984375,
+      "x_min": 573,
+      "y_min": 104,
+      "x_max": 630,
+      "y_max": 151,
+      "size_um": 76.25,
+      "confidence": 0.902
+    },
+    {
+      "class_id": 0,
+      "class_name": "fiber",
+      "x_center": 0.28515625,
+      "y_center": 0.75,
+      "width": 0.046875,
+      "height": 0.04296875,
+      "x_min": 268,
+      "y_min": 746,
+      "x_max": 316,
+      "y_max": 790,
+      "size_um": 48.75,
+      "confidence": 0.927
+    },
+    {
+      "class_id": 1,
+      "class_name": "fragment",
+      "x_center": 0.3828125,
+      "y_center": 0.4560546875,
+      "width": 0.158203125,
+      "height": 0.154296875,
+      "x_min": 311,
+      "y_min": 388,
+      "x_max": 473,
+      "y_max": 546,
+      "size_um": 182.5,
+      "confidence": 0.92
+    },
+    {
+      "class_id": 4,
+      "class_name": "sphere",
+      "x_center": 0.162109375,
+      "y_center": 0.591796875,
+      "width": 0.068359375,
+      "height": 0.068359375,
+      "x_min": 131,
+      "y_min": 571,
+      "x_max": 201,
+      "y_max": 641,
+      "size_um": 77.5,
+      "confidence": 0.969
+    },
+    {
+      "class_id": 3,
+      "class_name": "film",
+      "x_center": 0.474609375,
+      "y_center": 0.52734375,
+      "width": 0.08984375,
+      "height": 0.109375,
+      "x_min": 440,
+      "y_min": 484,
+      "x_max": 532,
+      "y_max": 596,
+      "size_um": 112.5,
+      "confidence": 0.939
+    }
+  ]
+}

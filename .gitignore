@@ -58,5 +58,8 @@ ml/models/*
 
 # Database / Storage uploads
 uploads/
+backend/app/static/uploads/*
+!backend/app/static/uploads/.gitkeep
 *.sqlite
 *.db
+

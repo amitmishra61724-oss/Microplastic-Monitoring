@@ -1,0 +1,64 @@
+{
+  "image_file": "microscope_train_012.png",
+  "width": 1024,
+  "height": 1024,
+  "particle_count": 4,
+  "particles": [
+    {
+      "class_id": 0,
+      "class_name": "fiber",
+      "x_center": 0.48095703125,
+      "y_center": 0.462890625,
+      "width": 0.0244140625,
+      "height": 0.060546875,
+      "x_min": 480,
+      "y_min": 443,
+      "x_max": 505,
+      "y_max": 505,
+      "size_um": 61.25,
+      "confidence": 0.949
+    },
+    {
+      "class_id": 4,
+      "class_name": "sphere",
+      "x_center": 0.4912109375,
+      "y_center": 0.419921875,
+      "width": 0.099609375,
+      "height": 0.099609375,
+      "x_min": 452,
+      "y_min": 379,
+      "x_max": 554,
+      "y_max": 481,
+      "size_um": 117.5,
+      "confidence": 0.919
+    },
+    {
+      "class_id": 2,
+      "class_name": "pellet",
+      "x_center": 0.6162109375,
+      "y_center": 0.5224609375,
+      "width": 0.103515625,
+      "height": 0.103515625,
+      "x_min": 578,
+      "y_min": 482,
+      "x_max": 684,
+      "y_max": 588,
+      "size_um": 120.0,
+      "confidence": 0.961
+    },
+    {
+      "class_id": 0,
+      "class_name": "fiber",
+      "x_center": 0.21630859375,
+      "y_center": 0.49609375,
+      "width": 0.0322265625,
+      "height": 0.048828125,
+      "x_min": 205,
+      "y_min": 483,
+      "x_max": 238,
+      "y_max": 533,
+      "size_um": 55.0,
+      "confidence": 0.895
+    }
+  ]
+}
